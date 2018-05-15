@@ -6,10 +6,6 @@ body {
   height: 100%;
 }
 
-div {
-  /* outline: 1px solid #666; */
-}
-
 @font-face {
   font-family: "Warnock Pro";
   src: url("./fonts/Warnock-Pro_48450.ttf");
@@ -57,6 +53,9 @@ header {
   line-height: 80px;
   width: 10%;
   float: left;
+  margin-left: 3%;
+  font-size: 2.6em;
+  color: #b9b9b9;
 }
 
 .header__search {
@@ -92,7 +91,6 @@ header {
   position: absolute;
   background-color: #ffffff;
   min-width: 160px;
-  z-index: 1;
 }
 
 .nav__dropdown-content a {
@@ -100,6 +98,8 @@ header {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  font-size: 0.8em;
+  color: #b9b9b9;
 }
 
 .nav__item:hover .nav__dropdown-content {
@@ -123,7 +123,18 @@ header {
   padding-bottom: 4%;
 }
 
-.main-news {}
+.main-news {
+  position: relative;
+}
+
+.main-news .yellow-square {
+  outline: 4px solid #fecc68;
+  position: absolute;
+  height: 900px;
+  width: 800px;
+  left: 30%;
+  bottom: 3%;
+}
 
 .content__main-news {
   padding-left: 5%;
@@ -135,6 +146,10 @@ header {
   background-image: url(./image/7.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
+}
+
+.main-news__image:hover {
+  filter: brightness(50%);
 }
 
 .main-news__tittle {
@@ -172,7 +187,11 @@ header {
   height: 350px;
   background-image: url(./image/18.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+}
+
+.inspiration__image:hover {
+  filter: brightness(50%);
 }
 
 .inspiration__tittle {
@@ -185,6 +204,16 @@ header {
   padding-left: 3%;
   padding-right: 3%;
   box-sizing: border-box;
+  position: relative;
+}
+
+.downloads .yellow-square {
+  outline: 4px solid #fecc68;
+  position: absolute;
+  height: 370px;
+  width: 630px;
+  left: 4%;
+  bottom: 22%;
 }
 
 .left-column__downloads {
@@ -197,6 +226,10 @@ header {
   background-image: url(./image/15.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
+}
+
+.downloads__image:hover {
+  filter: brightness(50%);
 }
 
 .downloads__tittle {
@@ -223,6 +256,10 @@ header {
   background-size: 100% auto;
 }
 
+.season-choice__image:hover {
+  filter: brightness(50%);
+}
+
 .season-choice__tittle {
   text-align: center;
   padding-top: 8px;
@@ -235,6 +272,14 @@ header {
   box-sizing: border-box;
 }
 
+.illustrators .yellow-square {
+  outline: 4px solid #fecc68;
+  position: absolute;
+  height: 700px;
+  width: 1100px;
+  right: 41%;
+}
+
 .left-column__illustrators {
   width: 100%;
   clear: left;
@@ -245,6 +290,10 @@ header {
   background-image: url(./image/13.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
+}
+
+.illustrators__image:hover {
+  filter: brightness(50%);
 }
 
 .illustrators__tittle {
@@ -271,6 +320,10 @@ header {
   background-size: 100% auto;
 }
 
+.fashion-shows__image:hover {
+  filter: brightness(50%);
+}
+
 .fashion-shows__tittle {
   text-align: center;
   padding-top: 8px;
@@ -294,6 +347,10 @@ header {
   background-size: 100% 100%;
 }
 
+.advertising__image:hover {
+  filter: brightness(50%);
+}
+
 .advertising__tittle {
   text-align: center;
   padding-top: 8px;
@@ -305,6 +362,16 @@ header {
   padding-right: 10%;
   padding-bottom: 50px;
   box-sizing: border-box;
+  position: relative;
+}
+
+.tendentious .yellow-square {
+  outline: 4px solid #fecc68;
+  position: absolute;
+  height: 400px;
+  width: 300px;
+  bottom: 30%;
+  left: 30%;
 }
 
 .right-column__tendentious {
@@ -316,6 +383,10 @@ header {
   background-image: url(./image/20.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
+}
+
+.tendentious__image:hover {
+  filter: brightness(50%);
 }
 
 .tendentious__tittle {
@@ -341,6 +412,10 @@ header {
   background-size: 100% auto;
 }
 
+.films-rating__image:hover {
+  filter: brightness(50%);
+}
+
 .films-rating__tittle {
   text-align: center;
   padding-top: 8px;
@@ -352,6 +427,16 @@ header {
   padding-left: 5%;
   padding-right: 5%;
   box-sizing: border-box;
+  position: relative;
+}
+
+.restaurants-rating .yellow-square {
+  outline: 4px solid #fecc68;
+  position: absolute;
+  height: 450px;
+  width: 700px;
+  bottom: 10%;
+  right: 5%;
 }
 
 .right-column__restaurants-rating {
@@ -364,6 +449,10 @@ header {
   background-image: url(./image/12.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
+}
+
+.restaurants-rating__image:hover {
+  filter: brightness(50%);
 }
 
 .restaurants-rating__tittle {
@@ -387,8 +476,9 @@ footer {
 .footer__registration {}
 
 .footer__logo {
-  height: 220px;
-  padding-top: 100px;
+  width: 50%;
+  height: auto;
+  padding-top: 5%;
   margin: auto;
 }
 
@@ -480,3 +570,4 @@ input::placeholder {
   font-size: 2em;
   text-align: center;
 }
+

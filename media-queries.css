@@ -1,0 +1,176 @@
+@media (max-width: 1580px) {
+  .yellow-square {
+    display: none;
+  }
+
+  .main-news__image {
+    height: 710px;
+  }
+
+  .season-choice__image, .tendentious__image {
+    height: 550px;
+  }
+}
+
+@media (max-width: 1296px) {
+  .header__nav {
+    padding-top: 300px;
+    padding-left: 50px;
+  }
+
+  .content {
+    font-size: 1.8em;
+  }
+
+  .advertising__image {
+    height: 500px;
+  }
+
+  .inspiration__image, .downloads__image {
+    height: 280px;
+  }
+
+  .main-news__image {
+    height: 600px;
+  }
+
+  .season-choice__image,
+  .tendentious__image,
+  .illustrators__image,
+  .fashion-shows__image {
+    height: 400px;
+  }
+
+  .tendentious {
+    padding-bottom: 0;
+  }
+
+  .restaurants-rating__image,
+  .films-rating__image {
+    height: 250px;
+  }
+
+  .restaurants-rating {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 990px) {
+  header {
+    height: auto;
+    overflow: hidden;
+  }
+
+  .header__search {
+    clear: both;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .header__logo {
+    width: 80%;
+    height: auto;
+    position: relative;
+  }
+
+  .header__social {
+    height: 50px;
+  }
+
+  .header__ico {
+    height: 40px;
+    padding-top: 5px;
+  }
+
+  .header__follow {
+    display: none;
+  }
+
+  .header__nav {
+    font-size: 1.2em;
+    padding-top: 0;
+    padding-left: 20px;
+  }
+
+  .content__left-column {
+    clear: both;
+    width: 100%;
+  }
+
+  .content__right-column {
+    clear: both;
+    width: 100%;
+  }
+
+  .content {
+    font-size: 1em;
+  }
+
+  .advertising__image,
+  .inspiration__image,
+  .downloads__image,
+  .main-news__image,
+  .season-choice__image,
+  .tendentious__image,
+  .illustrators__image,
+  .fashion-shows__image,
+  .tendentious__image,
+  .films-rating__image,
+  .restaurants-rating__image {
+    height: 150px;
+  }
+
+  .restaurants-rating, .tendentious {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  footer {
+    background-size: 100% 100%;
+  }
+
+  .footer__tittle {
+    font-size: 2em;
+  }
+
+  .footer__form {
+    margin-bottom: 10px;
+    line-height: 0.3em;
+  }
+
+  .footer__input-section {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .footer__input {
+    font-size: 0.4em;
+  }
+
+  .footer__submit {
+    height: 0.8em;
+    width: 0.8em;
+  }
+
+  .footer__accept {
+    font-size: 0.4em;
+  }
+
+  .footer__checkbox {
+    height: 2em;
+    width: 2em;
+  }
+
+  .copyright__links {
+    font-size: 1.2em;
+  }
+
+  .copyright__link {
+    padding-left: 0;
+  }
+
+  .copyright__attention {
+    font-size: 0.8em;
+    padding-bottom: 10px;
+  }
+}
